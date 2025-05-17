@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.main{
+    display: flex;
+    margin-top: 15vh;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column; 
+}
+
+.btn{
+    border: 1px solid cadetblue;
+    padding: 1vw 4vh;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(206, 166, 136);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    opacity: 0.7;
+    background-color: tomato;
+}
